@@ -1,0 +1,148 @@
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+h1 {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 35px;
+  padding: 0;
+}
+
+p {
+  font-family: 'Roboto';
+}
+.green {
+  background-color: rgb(0, 143, 0);
+}
+
+.red {
+  background-color: rgb(170, 0, 0);
+}
+
+.list-card {
+  list-style: none;
+  padding: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.cont-1 {
+  display: inline-block;
+}
+
+.cont-in {
+  width: 10%;
+  align-self: flex-start;
+}
+
+.card-content {
+  width: 50%;
+  align-self: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.g-border {
+  border: 3px solid rgb(0, 143, 0);
+}
+
+.r-border {
+  border: 3px solid rgb(170, 0, 0);
+}
+
+.dish-name {
+  color: rgb(15, 15, 15);
+}
+
+.dish-sar {
+  color: rgb(107, 107, 107);
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.dish-description {
+  color: rgb(193, 193, 193);
+  font-size: 20px;
+}
+
+.btn-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  background-color: rgb(43, 128, 43);
+  border-radius: 35px;
+  padding: 5px 10px;
+}
+
+button {
+  background-color: transparent;
+  font-size: 40px;
+  color: rgb(246, 246, 246);
+  border: 0;
+  cursor: pointer;
+}
+
+.count {
+  color: rgb(246, 246, 246);
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.avail {
+  color: rgb(247, 54, 54);
+  font-size: 20px;
+}
+
+.custom {
+  color: rgb(0, 133, 210);
+  font-size: 24px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.cal-cont {
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.calories {
+  color: rgb(255, 136, 24);
+  font-size: 18px;
+}
+
+.image-cont {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.dish-img {
+  height: 200px;
+  width: 130px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .calories {
+    font-size: 25px;
+  }
+
+  .dish-description {
+    font-size: 22px;
+  }
+
+  .dish-img {
+    width: 70%;
+  }
+}

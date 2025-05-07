@@ -27,3 +27,9 @@
   border-bottom: 2px solid rgb(211, 53, 53) !important;
   color: rgb(211, 53, 53) !important;
 }
+
+@media screen and (max-width: 768px) {
+  .cate-btn {
+    font-size: 13px;
+  }
+}

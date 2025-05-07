@@ -39,31 +39,29 @@ const App = () => {
     getProducts()
   }, [])
 
-  const getFilteredProducts = () => {
-    if (shop === 'UNI Resto Cafe') {
+  useEffect(() => {
+    if (shop !== '') {
       const filteredCate = allProducts.filter(
         each => each.menu_category === currentCategory,
       )
-      const menus = filteredCate[0].category_dishes.map(each => ({
-        dishAvailability: each.dish_Availability,
-        dishType: each.dish_Type,
-        dishCalories: each.dish_calories,
-        dishCurrency: each.dish_currency,
-        dishDescription: each.dish_description,
-        dishId: each.dish_id,
-        dishImage: each.dish_image,
-        dishName: each.dish_name,
-        dishPrice: each.dish_price,
-        nextUrl: each.nexturl,
-        addonCat: each.addonCat,
-      }))
-      setFilteredProduct(menus)
+      if (filteredCate.length !== 0) {
+        const menus = filteredCate[0].category_dishes.map(each => ({
+          dishAvailability: each.dish_Availability,
+          dishType: each.dish_Type,
+          dishCalories: each.dish_calories,
+          dishCurrency: each.dish_currency,
+          dishDescription: each.dish_description,
+          dishId: each.dish_id,
+          dishImage: each.dish_image,
+          dishName: each.dish_name,
+          dishPrice: each.dish_price,
+          nextUrl: each.nexturl,
+          addonCat: each.addonCat,
+        }))
+        setFilteredProduct(menus)
+      }
     }
-  }
-
-  useEffect(() => {
-    getFilteredProducts()
-  }, [currentCategory])
+  }, [currentCategory, allProducts, shop])
 
   return (
     <CartContext.Provider

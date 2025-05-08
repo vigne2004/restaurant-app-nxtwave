@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/restaurant-app-nxtwave/static/css/main.e740226e.chunk.css",
+    "main.js": "/restaurant-app-nxtwave/static/js/main.cf30d0de.chunk.js",
+    "main.js.map": "/restaurant-app-nxtwave/static/js/main.cf30d0de.chunk.js.map",
+    "runtime-main.js": "/restaurant-app-nxtwave/static/js/runtime-main.b17b942b.js",
+    "runtime-main.js.map": "/restaurant-app-nxtwave/static/js/runtime-main.b17b942b.js.map",
+    "static/js/2.e2a78eff.chunk.js": "/restaurant-app-nxtwave/static/js/2.e2a78eff.chunk.js",
+    "static/js/2.e2a78eff.chunk.js.map": "/restaurant-app-nxtwave/static/js/2.e2a78eff.chunk.js.map",
+    "index.html": "/restaurant-app-nxtwave/index.html",
+    "static/css/main.e740226e.chunk.css.map": "/restaurant-app-nxtwave/static/css/main.e740226e.chunk.css.map",
+    "static/js/2.e2a78eff.chunk.js.LICENSE.txt": "/restaurant-app-nxtwave/static/js/2.e2a78eff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b17b942b.js",
+    "static/js/2.e2a78eff.chunk.js",
+    "static/css/main.e740226e.chunk.css",
+    "static/js/main.cf30d0de.chunk.js"
+  ]
+}
